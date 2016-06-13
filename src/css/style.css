@@ -1,0 +1,29 @@
+.signup #password + span {
+  display: inline-block;
+  position:absolute;
+  background: red;
+  width: 18px;
+  height: 18px;
+	right:0;
+	transform: translateY(-30px);
+  position: absolute;
+  background: transparent url("http://iconizer.net/files/Wireframe_mono_icons/orig/eye.png") center center no-repeat;
+  background-size: cover; }
+  .signup #password + span.view:before {
+    content: '';
+    position: absolute;
+    width: 18px;
+    height: 2px;
+		right: 0px;
+    top: 8px;
+    transform: rotate(45deg);
+    background: black; }
+
+    .form-group {
+      position: relative;
+    }
+
+#world-map {
+  width:100%;
+  height:500px;
+}
