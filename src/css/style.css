@@ -26,4 +26,61 @@
 #world-map {
   width:100%;
   height:500px;
+  position:relative;
+  overflow:hidden;
+}
+
+#tools {
+  width:100%;
+  height:100px;
+  background:grey;
+}
+
+.numberVisitor {
+  width:25%;
+  height:80px;
+  margin:10px;
+  background:white;
+}
+
+.jvectormap-marker {
+  display:none;
+}
+
+.bar_info{
+  height:100%;
+  width:105%;
+  background:red;
+  position:absolute;
+  z-index:10;
+  overflow:auto;
+  transform:translateX(-400px);
+}
+
+.button_return{
+  height:10%;
+  width:10%;
+  background:red;
+  position:absolute;
+  z-index:10;
+  right:5%;
+  top:5%;
+
+  transform:translateX(400px);
+}
+
+.bar_info>div{
+  margin:50px;
+}
+
+.bar_info>div>p{
+  float:right;
+}
+
+.container_bar {
+  width:30%;
+  overflow:hidden;
+  height:100%;
+  position: absolute;
+
 }
